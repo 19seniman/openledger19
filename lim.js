@@ -1,3 +1,4 @@
+   // Import library yang diperlukan
    const axios = require('axios');
    require('dotenv').config();
 
@@ -24,5 +25,6 @@
        }
    }
 
-   
+   // Panggil fungsi login
+   login();
    
